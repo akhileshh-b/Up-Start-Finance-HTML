@@ -1,0 +1,43 @@
+.card-card {
+  flex: 0 0 auto;
+  width: 32%;
+  display: flex;
+  padding: 20px;
+  max-width: 450px;
+  min-height: 480px;
+  align-items: center;
+  border-radius: 36px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: url("public/rectangle%2035-1500w.png");
+}
+.card-info {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-scheme-white);
+}
+.card-text {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.card-text1 {
+  line-height: 1.5;
+}
+@media(max-width: 767px) {
+  .card-card {
+    width: 100%;
+  }
+}
